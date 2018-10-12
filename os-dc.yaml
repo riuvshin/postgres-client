@@ -29,6 +29,6 @@ spec:
         deploymentconfig: postgres-client-pod
     spec:
       containers:
-      - image: riuvshin/postgres-client:9.6.10
+      - image: riuvshin/postgres-client:latest
         imagePullPolicy: Always
         name: postgres-client-pod
